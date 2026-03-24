@@ -12,6 +12,7 @@ Managing 100+ LLM APIs, handling rate limits, implementing fallbacks, and tracki
 - [Load Balancing and Routing](#load-balancing-and-routing)
 - [API Management and Rate Limiting](#api-management-and-rate-limiting)
 - [Observability and Logging](#observability-and-logging)
+- [Agentic Orchestration](#agentic-orchestration)
 - [SDKs and Libraries](#sdks-and-libraries)
 - [Guardrails and Security](#guardrails-and-security)
 - [Tutorials and Case Studies](#tutorials-and-case-studies)
@@ -35,6 +36,8 @@ Unified API gateways that route requests across multiple LLM providers.
 - [Vercel AI Gateway](https://sdk.vercel.ai/docs/ai-gateway#readme) - Single endpoint for hundreds of AI models.
 - [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/#readme) - Unified interface for AI providers at the edge.
 - [OpenRouter](https://openrouter.ai/#readme) - Unified API for 500+ models from 60+ providers.
+- [Braintrust](https://www.braintrust.dev/#readme) - Unified API with encrypted caching and integrated evaluation.
+- [Inworld Router](https://www.inworlds.ai/#readme) - LLM plus TTS pipelining for high-interactivity use cases.
 
 ## Semantic Caching
 
@@ -68,6 +71,8 @@ Monitor, attribute, and optimize LLM spend.
 - [Weave](https://weave.wandb.ai/#readme) - LLM observability from Weights and Biases.
 - [Datadog LLM Observability](https://www.datadoghq.com/product/llm-observability/#readme) - Enterprise monitoring with LLM metrics.
 - [PostHog](https://posthog.com/#readme) - Product analytics with LLM event tracking.
+- [Confident AI](https://www.confident-ai.com/#readme) - Evaluation-first observability platform.
+- [Maxim AI](https://www.getmaxim.ai/#readme) - End-to-end platform for simulation, evaluation, and monitoring.
 
 ## Load Balancing and Routing
 
@@ -95,6 +100,17 @@ Full visibility into LLM behavior, performance, and costs.
 - [LiteLLM Logging](https://docs.litellm.ai/docs/production/logging#readme) - Logging to object storage.
 - [LiteLLM Admin UI](https://docs.litellm.ai/docs/production/litellm_dashboard#readme) - Built-in spend and usage dashboards.
 - [LiteLLM Grafana Dashboard](https://github.com/BerriAI/litellm/tree/main/litellm-main#readme) - Prometheus metrics visualization.
+- [AgentOps](https://www.agentops.ai/#readme) - Observability for agentic loops with tool usage tracking.
+
+## Agentic Orchestration
+
+Build and manage autonomous agents, long-running tasks, and multi-agent coordination.
+
+- [LangGraph](https://github.com/langchain-ai/langgraph#readme) - Low-level orchestration framework for building stateful, multi-agent applications.
+- [Agency Swarm](https://github.com/vrsen/agency-swarm#readme) - Multi-agent framework building collaborative networks of AI agents.
+- [CrewAI](https://github.com/crewAIInc/crewAI#readme) - Multi-agent framework with LLM routing.
+- [AutoGen](https://github.com/microsoft/autogen#readme) - Microsoft multi-agent framework.
+- [UiPath Maestro](https://www.uipath.com/#readme) - Enterprise orchestrator blending LLM agents with RPA and human-in-the-loop.
 
 ## SDKs and Libraries
 
@@ -107,8 +123,6 @@ Multi-provider abstractions and LLM client libraries.
 - [Portkey Python SDK](https://docs.portkey.ai/docs/get-started/python-sdk#readme) - Multi-provider with tracing.
 - [LangChain](https://github.com/langchain-ai/langchain#readme) - LLM orchestration framework.
 - [LlamaIndex](https://github.com/run-llama/llama_index#readme) - RAG framework with gateway integrations.
-- [CrewAI](https://github.com/crewAIInc/crewAI#readme) - Multi-agent framework with LLM routing.
-- [AutoGen](https://github.com/microsoft/autogen#readme) - Microsoft multi-agent framework.
 - [tiktoken](https://github.com/openai/tiktoken#readme) - Fast tokenization by OpenAI.
 - [tokenizers](https://github.com/huggingface/tokenizers#readme) - Hugging Face tokenizers.
 - [httpx](https://github.com/encode/httpx#readme) - Async HTTP client.
@@ -125,6 +139,7 @@ Content filtering, PII redaction, and prompt injection protection.
 - [SlashLLM](https://slashllm.com/#readme) - Enterprise security platform.
 - [Azure AI Content Safety](https://azure.microsoft.com/en-us/products/ai-services/content-safety/#readme) - Microsoft content moderation.
 - [AWS AI Services](https://aws.amazon.com/machine-learning/ai-services/#readme) - Amazon content moderation.
+- [DeepEval](https://github.com/confident-ai/deepeval#readme) - Open-source testing framework for LLM outputs.
 
 ## Tutorials and Case Studies
 
