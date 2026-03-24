@@ -28,6 +28,7 @@ Unified API gateways that route requests across multiple LLM providers.
 - [Portkey](https://github.com/Portkey-AI/portkey#readme) - Open-source AI gateway with unified API for 1600+ LLMs.
 - [Kong](https://github.com/Kong/kong#readme) - Enterprise API gateway with LLM routing plugin.
 - [LocalAI](https://github.com/mudler/LocalAI#readme) - Self-hosted, drop-in replacement for OpenAI API.
+- [Zuul](https://github.com/Netflix/zuul#readme) - Netflix edge gateway.
 
 ### Managed Services
 
@@ -39,16 +40,11 @@ Unified API gateways that route requests across multiple LLM providers.
 
 Reduce costs 60-80% by caching semantically similar responses.
 
-### Libraries and Tools
-
 - [RedisVL SemanticCache](https://redis.io/docs/latest/develop/ai/redisvl/0.7.0/user_guide/llmcache/#readme) - Semantic caching built on Redis vector search.
 - [GPT-Cache](https://github.com/ZhouDaoquan/GPT-Cache#readme) - Semantic cache for LLM responses.
 - [semantic-prompt-cache](https://github.com/renswickd/semantic-prompt-cache#readme) - RAG plus Semantic Cache system with FAISS.
 - [vCache](https://arxiv.org/abs/2502.03771#readme) - Verified semantic prompt caching with adaptive thresholds.
 - [VectorQ](https://arxiv.org/abs/2503.05530#readme) - Adaptive similarity thresholds for semantic caching.
-
-### Vector Databases
-
 - [Qdrant](https://github.com/qdrant/qdrant#readme) - Vector similarity search engine.
 - [Pinecone](https://www.pinecone.io/#readme) - Managed vector database.
 - [Chroma](https://github.com/chroma-core/chroma#readme) - Vector database for AI apps.
@@ -58,8 +54,6 @@ Reduce costs 60-80% by caching semantically similar responses.
 ## Cost Tracking and Analytics
 
 Monitor, attribute, and optimize LLM spend.
-
-### Open Source
 
 - [Langfuse](https://github.com/langfuse/langfuse#readme) - Open-source LLM engineering platform.
 - [Helicone](https://github.com/Helicone/helicone#readme) - Open-source LLM observability platform.
@@ -71,9 +65,6 @@ Monitor, attribute, and optimize LLM spend.
 - [LLM Cost Guardian](https://github.com/ogulcanaydogan/LLM-Cost-Guardian#readme) - Multi-provider cost tracking in Go.
 - [tokenx](https://github.com/dvlshah/tokenx#readme) - Python decorators for cost and latency monitoring.
 - [llm-performance-tracker](https://github.com/tinybirdco/llm-performance-tracker#readme) - Multi-tenant LLM analytics dashboard.
-
-### Managed Services
-
 - [Weave](https://weave.wandb.ai/#readme) - LLM observability from Weights and Biases.
 - [Datadog LLM Observability](https://www.datadoghq.com/product/llm-observability/#readme) - Enterprise monitoring with LLM metrics.
 - [PostHog](https://posthog.com/#readme) - Product analytics with LLM event tracking.
@@ -82,21 +73,14 @@ Monitor, attribute, and optimize LLM spend.
 
 Distribute traffic, implement failovers, and optimize costs.
 
-### Gateways
-
 - [LiteLLM Router](https://docs.litellm.ai/docs/proxy/routing#readme) - Retry/fallback logic and least-busy routing.
 - [Portkey](https://portkey.ai/docs/routing-strategies#readme) - Conditional routing and percentage-based distribution.
-
-### Case Studies
-
 - [Lovable: 1.8B tokens per minute load balancing](https://www.adwaitx.com/llm-provider-load-balancing-agent-workflows/#readme) - PID-controlled dynamic load balancing.
 
 ## API Management and Rate Limiting
 
 Control access, prevent abuse, and enforce quotas.
 
-- [Kong](https://github.com/Kong/kong#readme) - API gateway with rate limiting and auth.
-- [Zuul](https://github.com/Netflix/zuul#readme) - Netflix edge gateway.
 - [RateLimit4j](https://github.com/vladimir-bukhtoyarov/rate-limit#readme) - Java rate limiting library.
 - [Guava RateLimiter](https://github.com/google/guava#readme) - Google token bucket implementation.
 
@@ -104,20 +88,11 @@ Control access, prevent abuse, and enforce quotas.
 
 Full visibility into LLM behavior, performance, and costs.
 
-### Tracing and Monitoring
-
 - [OpenTelemetry](https://opentelemetry.io/#readme) - Vendor-neutral observability framework.
 - [Traceloop OpenLLMetry](https://github.com/traceloop/openllmetry#readme) - OpenTelemetry for LLMs.
-- [Arize Phoenix](https://github.com/Arize-ai/phoenix#readme) - Local-first LLM tracing platform.
-
-### Logging Platforms
-
 - [Grafana](https://github.com/grafana/grafana#readme) - Metrics visualization.
 - [Loki](https://github.com/grafana/loki#readme) - Log aggregation for LLM logs.
 - [LiteLLM Logging](https://docs.litellm.ai/docs/production/logging#readme) - Logging to object storage.
-
-### Dashboards
-
 - [LiteLLM Admin UI](https://docs.litellm.ai/docs/production/litellm_dashboard#readme) - Built-in spend and usage dashboards.
 - [LiteLLM Grafana Dashboard](https://github.com/BerriAI/litellm/tree/main/litellm-main#readme) - Prometheus metrics visualization.
 
@@ -125,27 +100,15 @@ Full visibility into LLM behavior, performance, and costs.
 
 Multi-provider abstractions and LLM client libraries.
 
-### OpenAI-Compatible Clients
-
 - [OpenAI Python SDK](https://github.com/openai/openai-python#readme) - Official OpenAI client.
 - [Anthropic Python SDK](https://github.com/anthropics/anthropic-sdk-python#readme) - Official Claude client.
 - [Vercel AI SDK](https://github.com/vercel/ai#readme) - AI SDK for Next.js and Svelte.
-
-### Multi-Provider SDKs
-
 - [LiteLLM Python SDK](https://docs.litellm.ai/docs/python-sdk#readme) - Unified interface for 100+ providers.
 - [Portkey Python SDK](https://docs.portkey.ai/docs/get-started/python-sdk#readme) - Multi-provider with tracing.
-- [Bifrost Go SDK](https://github.com/maximhq/bifrost#readme) - Go client for Bifrost gateway.
-
-### Framework Integrations
-
 - [LangChain](https://github.com/langchain-ai/langchain#readme) - LLM orchestration framework.
 - [LlamaIndex](https://github.com/run-llama/llama_index#readme) - RAG framework with gateway integrations.
 - [CrewAI](https://github.com/crewAIInc/crewAI#readme) - Multi-agent framework with LLM routing.
 - [AutoGen](https://github.com/microsoft/autogen#readme) - Microsoft multi-agent framework.
-
-### Utilities
-
 - [tiktoken](https://github.com/openai/tiktoken#readme) - Fast tokenization by OpenAI.
 - [tokenizers](https://github.com/huggingface/tokenizers#readme) - Hugging Face tokenizers.
 - [httpx](https://github.com/encode/httpx#readme) - Async HTTP client.
@@ -154,48 +117,27 @@ Multi-provider abstractions and LLM client libraries.
 
 Content filtering, PII redaction, and prompt injection protection.
 
-### Open Source
-
 - [Portkey Guardrails](https://docs.portkey.ai/docs/guardrails#readme) - Input and output filtering.
 - [LiteLLM Guardrails](https://docs.litellm.ai/docs/production/guardrails#readme) - Pre and post call hooks.
 - [PromptGuard](https://github.com/protectai/promptguard#readme) - Prompt injection detection.
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails#readme) - NVIDIA dialogue guardrails.
 - [LLM Guard](https://github.com/burkelaine/llm-guard#readme) - Security toolkit for LLM applications.
-
-### Managed Services
-
 - [SlashLLM](https://slashllm.com/#readme) - Enterprise security platform.
 - [Azure AI Content Safety](https://azure.microsoft.com/en-us/products/ai-services/content-safety/#readme) - Microsoft content moderation.
 - [AWS AI Services](https://aws.amazon.com/machine-learning/ai-services/#readme) - Amazon content moderation.
 
 ## Tutorials and Case Studies
 
-### Getting Started
-
 - [LiteLLM Quick Start](https://docs.litellm.ai/docs/#readme) - Official LiteLLM documentation.
 - [Bifrost Documentation](https://getmax.im/bifrostdocs#readme) - Bifrost setup guide.
 - [Portkey Quick Start](https://docs.portkey.ai/docs/get-started#readme) - Portkey getting started guide.
-
-### Architecture Patterns
-
 - [Building Multi-Provider LLM Infrastructure](https://medium.com/@ritukampani/future-proof-your-ai-building-a-gateway-for-multiple-llm-providers-b746f80cc169#readme) - Architecture guide.
 - [LLM Orchestration with Bifrost](https://dev.to/debmckinney/llm-orchestration-with-bifrost-routing-fallbacks-and-load-balancing-in-one-layer-40p3#readme) - Implementation guide.
 - [Failover Routing Strategies](https://portkey.ai/blog/failover-routing-strategies-for-llms-in-production#readme) - Production patterns.
-
-### Cost Optimization
-
 - [Semantic Caching Guide](https://scalemind.ai/blog/semantic-caching-llm-guide#readme) - Implementation best practices.
 - [Cost-Aware Routing Patterns](https://www.mindstudio.ai/blog/best-ai-model-routers-multi-provider-llm-cost/#readme) - Routing strategies.
-
-### Production Deployments
-
 - [OpenRouter Multi-Provider Routing](https://dev.to/kirponik/mastering-multi-provider-routing-with-openrouter-1ce3#readme) - OpenRouter guide.
 - [Rasa Multi-LLM Routing](https://rasa.com/docs/pro/deploy/llm-routing/#readme) - Rasa routing documentation.
-
-### Research Papers
-
-- [vCache](https://arxiv.org/abs/2502.03771#readme) - Verified semantic prompt caching with adaptive thresholds.
-- [VectorQ](https://arxiv.org/abs/2503.05530#readme) - Adaptive similarity thresholds for semantic caching.
 - [Cortex](https://arxiv.org/html/2509.17360v2#readme) - Semantic-aware knowledge caching for LLM agents.
 
 ## Communities
