@@ -34,7 +34,6 @@ Unified API gateways that route requests across multiple LLM providers.
 - [Vercel AI Gateway](https://sdk.vercel.ai/docs/ai-gateway#readme) - Single endpoint for hundreds of AI models.
 - [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/#readme) - Unified interface for AI providers at the edge.
 - [OpenRouter](https://openrouter.ai/#readme) - Unified API for 500+ models from 60+ providers.
-- [SlashLLM](https://slashllm.com/#readme) - Production-grade AI security and operations platform.
 
 ## Semantic Caching
 
@@ -48,7 +47,7 @@ Reduce costs 60-80% by caching semantically similar responses.
 - [vCache](https://arxiv.org/abs/2502.03771#readme) - Verified semantic prompt caching with adaptive thresholds.
 - [VectorQ](https://arxiv.org/abs/2503.05530#readme) - Adaptive similarity thresholds for semantic caching.
 
-### Vector Databases (for Semantic Cache)
+### Vector Databases
 
 - [Qdrant](https://github.com/qdrant/qdrant#readme) - Vector similarity search engine.
 - [Pinecone](https://www.pinecone.io/#readme) - Managed vector database.
@@ -83,18 +82,10 @@ Monitor, attribute, and optimize LLM spend.
 
 Distribute traffic, implement failovers, and optimize costs.
 
-### Gateways with Routing
+### Gateways
 
 - [LiteLLM Router](https://docs.litellm.ai/docs/proxy/routing#readme) - Retry/fallback logic and least-busy routing.
 - [Portkey](https://portkey.ai/docs/routing-strategies#readme) - Conditional routing and percentage-based distribution.
-
-### Routing Patterns
-
-- **Weighted Routing** - Distribute by weight (for example, 70% OpenAI, 30% Anthropic).
-- **Least-Connections** - Route to endpoint with fewest active requests.
-- **Latency-Based** - Route to fastest responding provider.
-- **Cost-Based** - Route to cheapest model for task complexity.
-- **Semantic Routing** - Route based on query type or intent.
 
 ### Case Studies
 
@@ -104,19 +95,10 @@ Distribute traffic, implement failovers, and optimize costs.
 
 Control access, prevent abuse, and enforce quotas.
 
-### Open Source
-
 - [Kong](https://github.com/Kong/kong#readme) - API gateway with rate limiting and auth.
 - [Zuul](https://github.com/Netflix/zuul#readme) - Netflix edge gateway.
 - [RateLimit4j](https://github.com/vladimir-bukhtoyarov/rate-limit#readme) - Java rate limiting library.
 - [Guava RateLimiter](https://github.com/google/guava#readme) - Google token bucket implementation.
-
-### Patterns
-
-- **RPM (Requests Per Minute)** - Standard rate limiting.
-- **TPM (Tokens Per Minute)** - LLM-specific provider limits.
-- **Virtual Keys** - Per-customer API keys with budgets (LiteLLM, Bifrost).
-- **Circuit Breakers** - Prevent cascade failures.
 
 ## Observability and Logging
 
@@ -182,7 +164,7 @@ Content filtering, PII redaction, and prompt injection protection.
 
 ### Managed Services
 
-- [SlashLLM Guardrails](https://slashllm.com/#readme) - Enterprise security platform.
+- [SlashLLM](https://slashllm.com/#readme) - Enterprise security platform.
 - [Azure AI Content Safety](https://azure.microsoft.com/en-us/products/ai-services/content-safety/#readme) - Microsoft content moderation.
 - [AWS AI Services](https://aws.amazon.com/machine-learning/ai-services/#readme) - Amazon content moderation.
 
@@ -203,20 +185,18 @@ Content filtering, PII redaction, and prompt injection protection.
 ### Cost Optimization
 
 - [Semantic Caching Guide](https://scalemind.ai/blog/semantic-caching-llm-guide#readme) - Implementation best practices.
-- [Reducing LLM Costs with Semantic Cache](https://redis.io/docs/latest/develop/ai/redisvl/0.7.0/user_guide/llmcache/#readme) - Redis semantic caching.
 - [Cost-Aware Routing Patterns](https://www.mindstudio.ai/blog/best-ai-model-routers-multi-provider-llm-cost/#readme) - Routing strategies.
 
 ### Production Deployments
 
-- [Lovable: 1.8B Tokens per Minute Load Balancing](https://www.adwaitx.com/llm-provider-load-balancing-agent-workflows/#readme) - Case study.
 - [OpenRouter Multi-Provider Routing](https://dev.to/kirponik/mastering-multi-provider-routing-with-openrouter-1ce3#readme) - OpenRouter guide.
 - [Rasa Multi-LLM Routing](https://rasa.com/docs/pro/deploy/llm-routing/#readme) - Rasa routing documentation.
 
 ### Research Papers
 
-- [vCache: Verified Semantic Prompt Caching](https://arxiv.org/abs/2502.03771#readme) - Academic paper.
-- [VectorQ: Adaptive Semantic Caching](https://arxiv.org/abs/2503.05530#readme) - Academic paper.
-- [Cortex: Semantic-Aware Knowledge Caching](https://arxiv.org/html/2509.17360v2#readme) - Academic paper.
+- [vCache](https://arxiv.org/abs/2502.03771#readme) - Verified semantic prompt caching with adaptive thresholds.
+- [VectorQ](https://arxiv.org/abs/2503.05530#readme) - Adaptive similarity thresholds for semantic caching.
+- [Cortex](https://arxiv.org/html/2509.17360v2#readme) - Semantic-aware knowledge caching for LLM agents.
 
 ## Communities
 
