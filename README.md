@@ -1,25 +1,21 @@
-# Awesome AI Gateways
-
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome AI Gateways [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
 > A curated list of tools, libraries, and resources for LLM routing, orchestration, and gateway infrastructure.
 
 Managing 100+ LLM APIs, handling rate limits, implementing fallbacks, and tracking token costs is a massive operational headache. This list curates the best open-source tools, managed services, and resources to help you build production-grade AI infrastructure.
 
-## Table of Contents
+## Contents
 
 - [AI Gateways](#ai-gateways)
 - [Semantic Caching](#semantic-caching)
-- [Cost Tracking & Analytics](#cost-tracking--analytics)
-- [Load Balancing & Routing](#load-balancing--routing)
-- [API Management & Rate Limiting](#api-management--rate-limiting)
-- [Observability & Logging](#observability--logging)
-- [SDKs & Libraries](#sdks--libraries)
-- [Guardrails & Security](#guardrails--security)
-- [Tutorials & Case Studies](#tutorials--case-studies)
+- [Cost Tracking and Analytics](#cost-tracking-and-analytics)
+- [Load Balancing and Routing](#load-balancing-and-routing)
+- [API Management and Rate Limiting](#api-management-and-rate-limiting)
+- [Observability and Logging](#observability-and-logging)
+- [SDKs and Libraries](#sdks-and-libraries)
+- [Guardrails and Security](#guardrails-and-security)
+- [Tutorials and Case Studies](#tutorials-and-case-studies)
 - [Communities](#communities)
-
----
 
 ## AI Gateways
 
@@ -28,7 +24,7 @@ Unified API gateways that route requests across multiple LLM providers.
 ### Open Source
 
 - [LiteLLM](https://github.com/BerriAI/litellm#readme) - Python SDK and proxy server calling 100+ LLMs in OpenAI format.
-- [Bifrost](https://github.com/maximhq/bifrost#readme) - High-performance AI gateway in Go.
+- [Bifrost](https://github.com/maximhq/bifrost#readme) - High-performance AI gateway in Go with adaptive load balancing.
 - [Portkey](https://github.com/Portkey-AI/portkey#readme) - Open-source AI gateway with unified API for 1600+ LLMs.
 - [Kong](https://github.com/Kong/kong#readme) - Enterprise API gateway with LLM routing plugin.
 - [LocalAI](https://github.com/mudler/LocalAI#readme) - Self-hosted, drop-in replacement for OpenAI API.
@@ -40,13 +36,11 @@ Unified API gateways that route requests across multiple LLM providers.
 - [OpenRouter](https://openrouter.ai/#readme) - Unified API for 500+ models from 60+ providers.
 - [SlashLLM](https://slashllm.com/#readme) - Production-grade AI security and operations platform.
 
----
-
 ## Semantic Caching
 
 Reduce costs 60-80% by caching semantically similar responses.
 
-### Libraries & Tools
+### Libraries and Tools
 
 - [RedisVL SemanticCache](https://redis.io/docs/latest/develop/ai/redisvl/0.7.0/user_guide/llmcache/#readme) - Semantic caching built on Redis vector search.
 - [GPT-Cache](https://github.com/ZhouDaoquan/GPT-Cache#readme) - Semantic cache for LLM responses.
@@ -60,11 +54,9 @@ Reduce costs 60-80% by caching semantically similar responses.
 - [Pinecone](https://www.pinecone.io/#readme) - Managed vector database.
 - [Chroma](https://github.com/chroma-core/chroma#readme) - Vector database for AI apps.
 - [pgvector](https://github.com/pgvector/pgvector#readme) - Vector similarity in PostgreSQL.
-- [FAISS](https://github.com/facebookresearch/faiss#readme) - Facebook's vector search library.
+- [FAISS](https://github.com/facebookresearch/faiss#readme) - Facebook vector search library.
 
----
-
-## Cost Tracking & Analytics
+## Cost Tracking and Analytics
 
 Monitor, attribute, and optimize LLM spend.
 
@@ -72,7 +64,7 @@ Monitor, attribute, and optimize LLM spend.
 
 - [Langfuse](https://github.com/langfuse/langfuse#readme) - Open-source LLM engineering platform.
 - [Helicone](https://github.com/Helicone/helicone#readme) - Open-source LLM observability platform.
-- [Arize Phoenix](https://github.com/Arize-ai/phoenix#readme) - ML/LLM observability platform.
+- [Arize Phoenix](https://github.com/Arize-ai/phoenix#readme) - ML and LLM observability platform.
 - [Opik](https://github.com/comet-ml/opik#readme) - LLM development platform by Comet.
 - [tokenmeter](https://github.com/jugaad-lab/tokenmeter#readme) - Track AI API usage locally.
 - [tokentap](https://github.com/jmuncor/tokentap#readme) - Terminal dashboard for LLM token tracking.
@@ -87,15 +79,12 @@ Monitor, attribute, and optimize LLM spend.
 - [Datadog LLM Observability](https://www.datadoghq.com/product/llm-observability/#readme) - Enterprise monitoring with LLM metrics.
 - [PostHog](https://posthog.com/#readme) - Product analytics with LLM event tracking.
 
----
-
-## Load Balancing & Routing
+## Load Balancing and Routing
 
 Distribute traffic, implement failovers, and optimize costs.
 
 ### Gateways with Routing
 
-- [Bifrost](https://github.com/maximhq/bifrost#readme) - Adaptive load balancing based on real-time metrics.
 - [LiteLLM Router](https://docs.litellm.ai/docs/proxy/routing#readme) - Retry/fallback logic and least-busy routing.
 - [Portkey](https://portkey.ai/docs/routing-strategies#readme) - Conditional routing and percentage-based distribution.
 
@@ -111,18 +100,16 @@ Distribute traffic, implement failovers, and optimize costs.
 
 - [Lovable: 1.8B tokens per minute load balancing](https://www.adwaitx.com/llm-provider-load-balancing-agent-workflows/#readme) - PID-controlled dynamic load balancing.
 
----
-
-## API Management & Rate Limiting
+## API Management and Rate Limiting
 
 Control access, prevent abuse, and enforce quotas.
 
 ### Open Source
 
 - [Kong](https://github.com/Kong/kong#readme) - API gateway with rate limiting and auth.
-- [Zuul](https://github.com/Netflix/zuul#readme) - Netflix's edge gateway.
+- [Zuul](https://github.com/Netflix/zuul#readme) - Netflix edge gateway.
 - [RateLimit4j](https://github.com/vladimir-bukhtoyarov/rate-limit#readme) - Java rate limiting library.
-- [Guava RateLimiter](https://github.com/google/guava#readme) - Google's token bucket implementation.
+- [Guava RateLimiter](https://github.com/google/guava#readme) - Google token bucket implementation.
 
 ### Patterns
 
@@ -131,13 +118,11 @@ Control access, prevent abuse, and enforce quotas.
 - **Virtual Keys** - Per-customer API keys with budgets (LiteLLM, Bifrost).
 - **Circuit Breakers** - Prevent cascade failures.
 
----
-
-## Observability & Logging
+## Observability and Logging
 
 Full visibility into LLM behavior, performance, and costs.
 
-### Tracing & Monitoring
+### Tracing and Monitoring
 
 - [OpenTelemetry](https://opentelemetry.io/#readme) - Vendor-neutral observability framework.
 - [Traceloop OpenLLMetry](https://github.com/traceloop/openllmetry#readme) - OpenTelemetry for LLMs.
@@ -154,9 +139,7 @@ Full visibility into LLM behavior, performance, and costs.
 - [LiteLLM Admin UI](https://docs.litellm.ai/docs/production/litellm_dashboard#readme) - Built-in spend and usage dashboards.
 - [LiteLLM Grafana Dashboard](https://github.com/BerriAI/litellm/tree/main/litellm-main#readme) - Prometheus metrics visualization.
 
----
-
-## SDKs & Libraries
+## SDKs and Libraries
 
 Multi-provider abstractions and LLM client libraries.
 
@@ -185,9 +168,7 @@ Multi-provider abstractions and LLM client libraries.
 - [tokenizers](https://github.com/huggingface/tokenizers#readme) - Hugging Face tokenizers.
 - [httpx](https://github.com/encode/httpx#readme) - Async HTTP client.
 
----
-
-## Guardrails & Security
+## Guardrails and Security
 
 Content filtering, PII redaction, and prompt injection protection.
 
@@ -196,18 +177,16 @@ Content filtering, PII redaction, and prompt injection protection.
 - [Portkey Guardrails](https://docs.portkey.ai/docs/guardrails#readme) - Input and output filtering.
 - [LiteLLM Guardrails](https://docs.litellm.ai/docs/production/guardrails#readme) - Pre and post call hooks.
 - [PromptGuard](https://github.com/protectai/promptguard#readme) - Prompt injection detection.
-- [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails#readme) - NVIDIA's dialogue guardrails.
+- [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails#readme) - NVIDIA dialogue guardrails.
 - [LLM Guard](https://github.com/burkelaine/llm-guard#readme) - Security toolkit for LLM applications.
 
 ### Managed Services
 
 - [SlashLLM Guardrails](https://slashllm.com/#readme) - Enterprise security platform.
-- [Azure AI Content Safety](https://azure.microsoft.com/en-us/products/ai-services/content-safety/#readme) - Microsoft's content moderation.
-- [AWS AI Services](https://aws.amazon.com/machine-learning/ai-services/#readme) - Amazon's content moderation.
+- [Azure AI Content Safety](https://azure.microsoft.com/en-us/products/ai-services/content-safety/#readme) - Microsoft content moderation.
+- [AWS AI Services](https://aws.amazon.com/machine-learning/ai-services/#readme) - Amazon content moderation.
 
----
-
-## Tutorials & Case Studies
+## Tutorials and Case Studies
 
 ### Getting Started
 
@@ -239,23 +218,9 @@ Content filtering, PII redaction, and prompt injection protection.
 - [VectorQ: Adaptive Semantic Caching](https://arxiv.org/abs/2503.05530#readme) - Academic paper.
 - [Cortex: Semantic-Aware Knowledge Caching](https://arxiv.org/html/2509.17360v2#readme) - Academic paper.
 
----
-
 ## Communities
 
 - [/r/LLMOps](https://reddit.com/r/LLMOps#readme) - Reddit community for LLM operations.
 - [LangChain Discord](https://discord.gg/langchain#readme) - Framework community.
 - [LiteLLM Discord](https://discord.gg/tdNkNArv#readme) - Gateway community.
-- [HuggingFace Community](https://discuss.huggingface.co/#readme) - Model and deployment discussions.
-
----
-
-## Contributing
-
-Contributions welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md#readme) for guidelines.
-
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, the author has waived all copyright and related or neighboring rights to this work.
+- [Hugging Face Community](https://discuss.huggingface.co/#readme) - Model and deployment discussions.
