@@ -161,3 +161,8 @@ Content filtering, PII redaction, and prompt injection protection.
 - [LangChain Discord](https://discord.gg/langchain#readme) - Framework community.
 - [LiteLLM Discord](https://discord.gg/tdNkNArv#readme) - Gateway community.
 - [Hugging Face Community](https://discuss.huggingface.co/#readme) - Model and deployment discussions.
+
+## Related Awesome Lists
+
+- [rothgar/awesome-tuis](https://github.com/rothgar/awesome-tuis) - 18K+ stars, comprehensive TUI list.
+- [msmps/awesome-opentui](https://github.com/msmps/awesome-opentui) - Curated open TUI resources.
