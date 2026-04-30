@@ -25,10 +25,21 @@ Unified API gateways that route requests across multiple LLM providers.
 ### Open Source
 
 - [LiteLLM](https://github.com/BerriAI/litellm#readme) - Python SDK and proxy server calling 100+ LLMs in OpenAI format.
+- [Portkey Gateway](https://github.com/Portkey-AI/gateway#readme) - Blazing fast AI gateway with 250+ LLMs, 50+ guardrails.
 - [Bifrost](https://github.com/maximhq/bifrost#readme) - High-performance AI gateway in Go with adaptive load balancing.
-- [Portkey](https://github.com/Portkey-AI/portkey#readme) - Open-source AI gateway with unified API for 1600+ LLMs.
+- [Ferro Labs AI Gateway](https://github.com/ferro-labs/ai-gateway#readme) - Go-native gateway for 29 providers with caching & guardrails.
+- [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway#readme) - Unified access to GenAI services built on Envoy Gateway.
+- [LLM Gateway](https://github.com/theopenco/llmgateway#readme) - Unified interface for running and managing LLMs with analytics.
+- [Inference Gateway](https://github.com/inference-gateway/inference-gateway#readme) - Cloud-native gateway unifying multiple LLM providers.
+- [OpenGateLLM](https://github.com/etalab-ia/OpenGateLLM#readme) - Open-source API gateway focused on self-hosted LLMs.
+- [Routerly](https://github.com/Inebrio/Routerly#readme) - Self-hosted LLM gateway with intelligent multi-policy routing.
+- [Plexus](https://github.com/mcowger/plexus#readme) - Unified API gateway with OAuth auth, quota tracking, and 15+ providers.
+- [OpenZiti LLM Gateway](https://github.com/openziti/llm-gateway#readme) - Zero-trust LLM gateway with semantic routing and E2E encryption.
 - [Kong](https://github.com/Kong/kong#readme) - Enterprise API gateway with LLM routing plugin.
 - [LocalAI](https://github.com/mudler/LocalAI#readme) - Self-hosted, drop-in replacement for OpenAI API.
+- [lm-proxy](https://github.com/Nayjest/lm-proxy#readme) - Lightweight OpenAI-compatible proxy for multi-provider inference.
+- [LLM API Proxy](https://github.com/rxliuli/llm-api-proxy#readme) - Edge runtime proxy supporting OpenAI, Anthropic, Gemini, and more.
+- [LLMProxy](https://github.com/aiyuekuang/LLMProxy#readme) - High-performance reverse proxy for LLM inference with SSE streaming.
 - [Zuul](https://github.com/Netflix/zuul#readme) - Netflix edge gateway.
 
 ### Managed Services
@@ -36,8 +47,10 @@ Unified API gateways that route requests across multiple LLM providers.
 - [Vercel AI Gateway](https://sdk.vercel.ai/docs/ai-gateway#readme) - Single endpoint for hundreds of AI models.
 - [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/#readme) - Unified interface for AI providers at the edge.
 - [OpenRouter](https://openrouter.ai/#readme) - Unified API for 500+ models from 60+ providers.
+- [Portkey Hosted](https://portkey.ai/#readme) - Managed AI gateway with 1600+ LLMs and enterprise features.
 - [Braintrust](https://www.braintrust.dev/#readme) - Unified API with encrypted caching and integrated evaluation.
 - [Inworld Router](https://www.inworlds.ai/#readme) - LLM plus TTS pipelining for high-interactivity use cases.
+- [Maxim AI](https://www.getmaxim.ai/#readme) - End-to-end platform for simulation, evaluation, and monitoring.
 
 ## Semantic Caching
 
@@ -80,6 +93,9 @@ Distribute traffic, implement failovers, and optimize costs.
 
 - [LiteLLM Router](https://docs.litellm.ai/docs/proxy/routing#readme) - Retry/fallback logic and least-busy routing.
 - [Portkey](https://portkey.ai/docs/routing-strategies#readme) - Conditional routing and percentage-based distribution.
+- [Bifrost Load Balancing](https://www.getmaxim.ai/bifrostdocs#readme) - Adaptive load balancer with cluster mode.
+- [Ferro Labs Router](https://github.com/ferro-labs/ai-gateway#readme) - Multi-provider routing with 29 providers.
+- [Routerly Policies](https://www.routerly.ai/#readme) - 9 configurable policies including LLM-native routing.
 - [Lovable: 1.8B tokens per minute load balancing](https://www.adwaitx.com/llm-provider-load-balancing-agent-workflows/#readme) - PID-controlled dynamic load balancing.
 
 ## API Management and Rate Limiting
@@ -126,6 +142,7 @@ Multi-provider abstractions and LLM client libraries.
 - [tiktoken](https://github.com/openai/tiktoken#readme) - Fast tokenization by OpenAI.
 - [tokenizers](https://github.com/huggingface/tokenizers#readme) - Hugging Face tokenizers.
 - [httpx](https://github.com/encode/httpx#readme) - Async HTTP client.
+- [Ferro Labs Go SDK](https://github.com/ferro-labs/ai-gateway#readme) - Go SDK for Ferro Labs gateway.
 
 ## Guardrails and Security
 
@@ -133,6 +150,7 @@ Content filtering, PII redaction, and prompt injection protection.
 
 - [Portkey Guardrails](https://docs.portkey.ai/docs/guardrails#readme) - Input and output filtering.
 - [LiteLLM Guardrails](https://docs.litellm.ai/docs/production/guardrails#readme) - Pre and post call hooks.
+- [Ferro Labs Guardrails](https://github.com/ferro-labs/ai-gateway#readme) - Word/phrase filtering and token limits.
 - [PromptGuard](https://github.com/protectai/promptguard#readme) - Prompt injection detection.
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails#readme) - NVIDIA dialogue guardrails.
 - [LLM Guard](https://github.com/burkelaine/llm-guard#readme) - Security toolkit for LLM applications.
@@ -140,11 +158,12 @@ Content filtering, PII redaction, and prompt injection protection.
 - [Azure AI Content Safety](https://azure.microsoft.com/en-us/products/ai-services/content-safety/#readme) - Microsoft content moderation.
 - [AWS AI Services](https://aws.amazon.com/machine-learning/ai-services/#readme) - Amazon content moderation.
 - [DeepEval](https://github.com/confident-ai/deepeval#readme) - Open-source testing framework for LLM outputs.
+- [OpenZiti Security](https://github.com/openziti/llm-gateway#readme) - Zero-trust access with E2E encryption.
 
 ## Tutorials and Case Studies
 
 - [LiteLLM Quick Start](https://docs.litellm.ai/docs/#readme) - Official LiteLLM documentation.
-- [Bifrost Documentation](https://getmax.im/bifrostdocs#readme) - Bifrost setup guide.
+- [Bifrost Documentation](https://getmaxim.ai/bifrostdocs#readme) - Bifrost setup guide.
 - [Portkey Quick Start](https://docs.portkey.ai/docs/get-started#readme) - Portkey getting started guide.
 - [Building Multi-Provider LLM Infrastructure](https://medium.com/@ritukampani/future-proof-your-ai-building-a-gateway-for-multiple-llm-providers-b746f80cc169#readme) - Architecture guide.
 - [LLM Orchestration with Bifrost](https://dev.to/debmckinney/llm-orchestration-with-bifrost-routing-fallbacks-and-load-balancing-in-one-layer-40p3#readme) - Implementation guide.
@@ -152,8 +171,10 @@ Content filtering, PII redaction, and prompt injection protection.
 - [Semantic Caching Guide](https://scalemind.ai/blog/semantic-caching-llm-guide#readme) - Implementation best practices.
 - [Cost-Aware Routing Patterns](https://www.mindstudio.ai/blog/best-ai-model-routers-multi-provider-llm-cost/#readme) - Routing strategies.
 - [OpenRouter Multi-Provider Routing](https://dev.to/kirponik/mastering-multi-provider-routing-with-openrouter-1ce3#readme) - OpenRouter guide.
-- [Rasa Multi-LLM Routing](https://rasa.com/docs/pro/deploy/llm-routing/#readme) - Rasa routing documentation.
+- [Rasa Multi-LLM Routing](https://rasa.com/docs/production/llm-routing/#readme) - Rasa routing documentation.
 - [Cortex](https://arxiv.org/html/2509.17360v2#readme) - Semantic-aware knowledge caching for LLM agents.
+- [Ferro Labs Getting Started](https://github.com/ferro-labs/ai-gateway#readme) - Go-native gateway setup.
+- [Routerly Documentation](https://www.routerly.ai/#readme) - Intelligent routing guide.
 
 ## Communities
 
