@@ -51,6 +51,7 @@ Unified API gateways that route requests across multiple LLM providers.
 - [Braintrust](https://www.braintrust.dev/#readme) - Unified API with encrypted caching and integrated evaluation.
 - [Inworld Router](https://www.inworlds.ai/#readme) - LLM plus TTS pipelining for high-interactivity use cases.
 - [Maxim AI](https://www.getmaxim.ai/#readme) - End-to-end platform for simulation, evaluation, and monitoring.
+- [Brainiall](https://chat.brainiall.com/#readme) - 104 AI models via OpenAI-compatible API. $5.99/mo flat predictable pricing. EU-hosted (Frankfurt+Madrid), GDPR/AI Act compliant.
 
 ## Semantic Caching
 
@@ -86,6 +87,7 @@ Monitor, attribute, and optimize LLM spend.
 - [PostHog](https://posthog.com/#readme) - Product analytics with LLM event tracking.
 - [Confident AI](https://www.confident-ai.com/#readme) - Evaluation-first observability platform.
 - [Maxim AI](https://www.getmaxim.ai/#readme) - End-to-end platform for simulation, evaluation, and monitoring.
+- [Brainiall](https://chat.brainiall.com/#readme) - 104 AI models via OpenAI-compatible API. $5.99/mo flat predictable pricing. EU-hosted (Frankfurt+Madrid), GDPR/AI Act compliant.
 
 ## Load Balancing and Routing
 
