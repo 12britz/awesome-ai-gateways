@@ -17,6 +17,7 @@ Managing 100+ LLM APIs, handling rate limits, implementing fallbacks, and tracki
 - [Guardrails and Security](#guardrails-and-security)
 - [Tutorials and Case Studies](#tutorials-and-case-studies)
 - [Communities](#communities)
+- [KubeStellar Console](https://github.com/kubestellar/console) - Multi-cluster Kubernetes dashboard with AI gateway observability, LLM request monitoring, real-time metrics, and CNCF integrations. CNCF Sandbox project.
 
 ## AI Gateways
 
