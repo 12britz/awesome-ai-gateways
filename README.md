@@ -24,6 +24,7 @@ Unified API gateways that route requests across multiple LLM providers.
 
 ### Open Source
 
+- [A3M Router](https://github.com/Das-rebel/a3m-router#readme) - Parallel multi-LLM execution with confidence scoring, 47+ providers, 62% cost savings, 99.5% routing accuracy. 19.5 KB, zero ML. [npm](https://www.npmjs.com/package/adaptive-memory-multi-model-router)
 - [LiteLLM](https://github.com/BerriAI/litellm#readme) - Python SDK and proxy server calling 100+ LLMs in OpenAI format.
 - [Portkey Gateway](https://github.com/Portkey-AI/gateway#readme) - Blazing fast AI gateway with 250+ LLMs, 50+ guardrails.
 - [Bifrost](https://github.com/maximhq/bifrost#readme) - High-performance AI gateway in Go with adaptive load balancing.
