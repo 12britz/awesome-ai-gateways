@@ -27,6 +27,7 @@ Unified API gateways that route requests across multiple LLM providers.
 - [LiteLLM](https://github.com/BerriAI/litellm#readme) - Python SDK and proxy server calling 100+ LLMs in OpenAI format.
 - [Portkey Gateway](https://github.com/Portkey-AI/gateway#readme) - Blazing fast AI gateway with 250+ LLMs, 50+ guardrails.
 - [Bifrost](https://github.com/maximhq/bifrost#readme) - High-performance AI gateway in Go with adaptive load balancing.
+- [AI Model Gateway](https://github.com/SSC-STUDIO/Ai-Model-Gateway#readme) - Self-hosted LLM operations gateway with OpenAI-compatible routing, provider fallback, rate limiting, telemetry, and config rollback.
 - [Ferro Labs AI Gateway](https://github.com/ferro-labs/ai-gateway#readme) - Go-native gateway for 29 providers with caching & guardrails.
 - [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway#readme) - Unified access to GenAI services built on Envoy Gateway.
 - [LLM Gateway](https://github.com/theopenco/llmgateway#readme) - Unified interface for running and managing LLMs with analytics.
