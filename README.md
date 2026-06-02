@@ -88,6 +88,7 @@ Monitor, attribute, and optimize LLM spend.
 - [PostHog](https://posthog.com/#readme) - Product analytics with LLM event tracking.
 - [Confident AI](https://www.confident-ai.com/#readme) - Evaluation-first observability platform.
 - [Maxim AI](https://www.getmaxim.ai/#readme) - End-to-end platform for simulation, evaluation, and monitoring.
+- [CoderPlan](https://coderplan.ai/#readme) - Unified LLM API gateway for China and Asia-Pacific. OpenAI-compatible access to Claude, GPT, Gemini, DeepSeek and 50+ models with pay-as-you-go pricing.
 
 ## Load Balancing and Routing
 
