@@ -50,6 +50,7 @@ Unified API gateways that route requests across multiple LLM providers.
 - [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/#readme) - Unified interface for AI providers at the edge.
 - [OpenRouter](https://openrouter.ai/#readme) - Unified API for 500+ models from 60+ providers.
 - [Portkey Hosted](https://portkey.ai/#readme) - Managed AI gateway with 1600+ LLMs and enterprise features.
+- [Tuning Engines](https://www.tuningengines.com/#readme) - Governed AI runtime with one OpenAI-compatible endpoint, RBAC, traffic policies, approvals, traces, MCP support, and usage analytics.
 - [Braintrust](https://www.braintrust.dev/#readme) - Unified API with encrypted caching and integrated evaluation.
 - [Inworld Router](https://www.inworlds.ai/#readme) - LLM plus TTS pipelining for high-interactivity use cases.
 - [Maxim AI](https://www.getmaxim.ai/#readme) - End-to-end platform for simulation, evaluation, and monitoring.
