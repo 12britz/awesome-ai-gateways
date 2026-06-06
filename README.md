@@ -25,6 +25,8 @@ Managing 100+ LLM APIs, handling rate limits, implementing fallbacks, and tracki
 Unified API gateways that route requests across multiple LLM providers.
 
 ### Open Source
+• [Traefik AI Plugin](https://doc.traefik.io/traefik/v2.0/plugins/ai-overview/) - Traefik plugin for AI-based request routing and middleware.
+• [Traefik Pilot AI](https://pilot.traefik.io/) - AI-driven configuration and optimization for Traefik proxies.
 • [APISIX AI Plugin](https://apisix.apache.org/docs/apisix/plugins/ai-proxy/) - Apache APISIX plugin for LLM provider integration with load balancing and observability.
 • [Ambassador AI Gateway](https://www.getambassador.io/docs/edge-stack/latest/topics/using/ai/) - Kubernetes-native AI gateway built on Envoy with rate limiting and fallback.
 
@@ -47,6 +49,8 @@ Unified API gateways that route requests across multiple LLM providers.
 - [Zuul](https://github.com/Netflix/zuul#readme) - Netflix edge gateway.
 
 ### Managed Services
+• [Azure API Management with Cognitive Services](https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-add-product) - Integrate Azure Cognitive Services with API Management for AI-enhanced APIs.
+• [IBM API Connect AI](https://www.ibm.com/docs/en/api-connect/10.0.0.x?topic=services-ai) - Use AI for API lifecycle management and security in IBM API Connect.
 • [AWS API Gateway with Bedrock Integration](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-bedrock.html) - Expose Bedrock models via REST/WebSocket APIs with throttling and auth.
 • [GCP Apigee AI Gateway](https://cloud.google.com/apigee/docs/api-platform/get-started) - Manage and secure LLM APIs with Apigee's traffic management and analytics.
 
@@ -59,6 +63,8 @@ Unified API gateways that route requests across multiple LLM providers.
 - [Maxim AI](https://www.getmaxim.ai/#readme) - End-to-end platform for simulation, evaluation, and monitoring.
 
 ## Semantic Caching
+• [Elasticsearch Semantic Cache](https://www.elastic.co/guide/en/elasticsearch/reference/current/semantic-search.html) - Use Elasticsearch for semantic caching with dense vector search.
+• [Weaviate](https://weaviate.io/) - Open-source vector database for storing and querying AI embeddings with hybrid search capabilities.
 • [Weaviate Semantic Cache](https://weaviate.io/developers/weaviate/use-guides/generative-ai/semantic-caching) - Vector-based semantic caching using Weaviate hybrid search.
 • [Milvus AI Cache](https://milvus.io/blog/semantic-caching.md) - Use Milvus vector store for prompt similarity caching.
 
@@ -76,6 +82,8 @@ Reduce costs 60-80% by caching semantically similar responses.
 - [FAISS](https://github.com/facebookresearch/faiss#readme) - Facebook vector search library.
 
 ## Cost Tracking and Analytics
+• [OpenCost](https://opencost.io/) - Open-source cost monitoring for cloud-native workloads, can be adapted for LLM costs.
+• [Cloudability](https://www.cloudability.com/) - Cloud cost management platform with AI-driven insights.
 • [Prometheus LLM Exporter](https://github.com/berriai/litellm/tree/main/litellm-main#prometheus) - Export LLM metrics (tokens, latency, cost) to Prometheus via LiteLLM.
 • [OpenLLMetry](https://github.com/traceloop/openllmetry) - OpenTelemetry instrumentation for LLM applications.
 
@@ -98,6 +106,8 @@ Monitor, attribute, and optimize LLM spend.
 - [Maxim AI](https://www.getmaxim.ai/#readme) - End-to-end platform for simulation, evaluation, and monitoring.
 
 ## Load Balancing and Routing
+• [Envoy AI Extension](https://www.envoyproxy.io/docs/envoy/latest/faq/overview/about) - Use Envoy extensions for AI-driven load balancing.
+• [Istio AI Traffic Management](https://istio.io/latest/docs/tasks/traffic-management/) - AI-based traffic routing in Istio service mesh.
 • [NGINX Plus AI Module](https://docs.nginx.com/nginx/admin-guide/dynamic-modules/ai-module/) - Dynamic module for request routing, fallback, and token limiting.
 • [HAProxy LLM Runtime](https://www.haproxy.com/blog/haproxy-for-llm-load-balancing/) - Use HAProxy ACLs and stick tables for provider failover and latency-based routing.
 
@@ -111,6 +121,8 @@ Distribute traffic, implement failovers, and optimize costs.
 - [Lovable: 1.8B tokens per minute load balancing](https://www.adwaitx.com/llm-provider-load-balancing-agent-workflows/#readme) - PID-controlled dynamic load balancing.
 
 ## API Management and Rate Limiting
+• [Apigee AI-powered API Management](https://cloud.google.com/apigee/docs/api-platform/get-started) - Google Cloud's Apigee with AI for intelligent API lifecycle management.
+• [3Scale AI API Management](https://www.redhat.com/en/products/red-hat-3scale-api-management) - AI-enhanced API management for performance and security insights.
 • [Tyk AI Gateway](https://tyk.io/blog/ai-gateway/) - Open-source API gateway with AI-specific rate limiting, token quotas, and prompt guardrails.
 • [Kong AI Rate Limiting Advanced](https://docs.konghq.com/gateway/latest/hub/kong-inc/ai-rate-limiting-advanced/) - Plugin for token-based rate limiting and semantic caching.
 
@@ -120,6 +132,8 @@ Control access, prevent abuse, and enforce quotas.
 - [Guava RateLimiter](https://github.com/google/guava#readme) - Google token bucket implementation.
 
 ## Observability and Logging
+• [Datadog AI Monitoring](https://www.datadoghq.com/product/ai-monitoring/) - AI-powered monitoring for applications and infrastructure.
+• [New Relic AI](https://newrelic.com/product/ai-monitoring) - AI-driven observability and incident response.
 • [LangSmith](https://smith.langchain.com/) - Unified platform for tracing, evaluation, and prompt management from LangChain.
 • [Helicone AI](https://www.helicone.ai/) - Open-source LLM observability with prompt tracing and cost monitoring.
 
@@ -135,6 +149,8 @@ Full visibility into LLM behavior, performance, and costs.
 - [AgentOps](https://www.agentops.ai/#readme) - Observability for agentic loops with tool usage tracking.
 
 ## Agentic Orchestration
+• [LlamaIndex Agents](https://docs.llamaindex.ai/en/stable/module_agents/index.html) - Build agents with LlamaIndex for data-aware applications.
+• [LangChain Agents](https://python.langchain.com/docs/modules/agents/) - Framework for building agents with LangChain.
 • [Microsoft Semantic Kernel](https://github.com/microsoft/semantic-kernel) - SDK for orchestrating AI agents with planners, memory, and connectors.
 • [AutoGen Studio](https://microsoft.github.io/autogen/studio.html) - Low-code UI for building and debugging multi-agent workflows.
 
@@ -147,6 +163,8 @@ Build and manage autonomous agents, long-running tasks, and multi-agent coordina
 - [UiPath Maestro](https://www.uipath.com/#readme) - Enterprise orchestrator blending LLM agents with RPA and human-in-the-loop.
 
 ## SDKs and Libraries
+• [Cohere Python SDK](https://docs.cohere.com/reference/python-sdk) - Official Python client for Cohere's NLP models.
+• [AI21 Labs SDK](https://github.com/AI21Labs/ai21-studio-python-sdk) - Python SDK for AI21 Labs' Jurassic models.
 • [Mistral AI SDK](https://github.com/mistralai/mistral-python) - Official Python client for Mistral AI endpoints.
 • [Google AI Python SDK](https://github.com/google-generativeai/python-genai) - Generative AI SDK for Gemini models.
 
@@ -165,6 +183,8 @@ Multi-provider abstractions and LLM client libraries.
 - [Ferro Labs Go SDK](https://github.com/ferro-labs/ai-gateway#readme) - Go SDK for Ferro Labs gateway.
 
 ## Guardrails and Security
+• [Microsoft Presidio](https://microsoft.github.io/presidio/) - Open-source service for PII detection and redaction.
+• [Amazon Comprehend](https://aws.amazon.com/comprehend/) - NLP service for insights and content moderation.
 • [Guardrails AI](https://www.guardrailsai.com/) - Open-source framework for adding validation and correction to LLM outputs.
 • [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) - Programmable guardrails for LLM applications (NVIDIA).
 
@@ -183,6 +203,8 @@ Content filtering, PII redaction, and prompt injection protection.
 - [OpenZiti Security](https://github.com/openziti/llm-gateway#readme) - Zero-trust access with E2E encryption.
 
 ## Tutorials and Case Studies
+• [AWS AI/ML Gateway Patterns](https://aws.amazon.com/blogs/apigateway/building-ai-ml-gateways-with-amazon-api-gateway/) - AWS blog on building AI/ML gateways.
+• [Google Cloud AI Gateway Best Practices](https://cloud.google.com/blog/topics/developers-practitioners/best-practices-for-building-ai-powered-applications-on-google-cloud) - Google Cloud blog.
 • [Building AI Gateways with Kong](https://konghq.com/blog/how-to-build-an-ai-gateway-with-kong) - Step‑by‑step guide to adding LLM routing, caching, and guardrails.
 • [Multi‑Provider LLM Routing with AWS API Gateway](https://aws.amazon.com/blogs/apigateway/integrating-amazon-bedrock-with-amazon-api-gateway/) - AWS tutorial on Bedrock integration.
 
@@ -201,6 +223,8 @@ Content filtering, PII redaction, and prompt injection protection.
 - [Routerly Documentation](https://www.routerly.ai/#readme) - Intelligent routing guide.
 
 ## Communities
+• [LLMops Subreddit](https://www.reddit.com/r/LLMOps/) - Reddit community for LLM operations.
+• [MLops.community](https://mlops.community/) - Community for MLOps practitioners.
 • [Discord: AI Gateway Developers](https://discord.gg/aigateway) - Community for discussing gateway patterns, tools, and best practices.
 
 - [/r/LLMOps](https://reddit.com/r/LLMOps#readme) - Reddit community for LLM operations.
