@@ -232,6 +232,10 @@ Content filtering, PII redaction, and prompt injection protection.
 - [DeepEval](https://github.com/confident-ai/deepeval#readme) - Open-source testing framework for LLM outputs.
 - [OpenZiti Security](https://github.com/openziti/llm-gateway#readme) - Zero-trust access with E2E encryption.
 
+### Agent Identity & Payment Verification
+
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - On-chain trust scoring for AI agents on Solana. Provides `score_agent(wallet)` and `preflight_check(wallet)` for verifying agent wallet identity before routing requests or authorizing x402 micropayments. Free streamable-HTTP MCP: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
+
 ## Tutorials and Case Studies
 • [Microsoft Azure AI Gateway Documentation](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/ai/ai-gateway) - Guide to building AI gateways on Azure.
 • [HashiCorp Consul for AI Service Mesh](https://developer.hashicorp.com/tutorials/cloud-mesh-consul) - Using Consul for AI service discovery and security.
