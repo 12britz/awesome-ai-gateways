@@ -136,6 +136,7 @@ Distribute traffic, implement failovers, and optimize costs.
 - [Routerly Policies](https://www.routerly.ai/#readme) - 9 configurable policies including LLM-native routing.
 - [Lovable: 1.8B tokens per minute load balancing](https://www.adwaitx.com/llm-provider-load-balancing-agent-workflows/#readme) - PID-controlled dynamic load balancing.
 - [RouteLLM](https://github.com/lm-sys/RouteLLM#readme) - Cost-quality routing with trainable lightweight routers.
+- [llm-swarm-router](https://github.com/matthewdcage/llm-swarm-router#readme) - Local LAN mesh router for oMLX, Ollama, LM Studio, vLLM, and llama.cpp backends; OpenAI + Anthropic Messages API on :11400.
 
 ## API Management and Rate Limiting
 • [MuleSoft AI Governance](https://www.mulesoft.com/lp/ai/anypoint-platform-for-ai) - AI-powered API governance and security.
