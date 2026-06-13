@@ -36,6 +36,7 @@ Unified API gateways that route requests across multiple LLM providers.
 - [Portkey Gateway](https://github.com/Portkey-AI/gateway#readme) - Blazing fast AI gateway with 250+ LLMs, 50+ guardrails.
 - [Bifrost](https://github.com/maximhq/bifrost#readme) - High-performance AI gateway in Go with adaptive load balancing.
 - [Ferro Labs AI Gateway](https://github.com/ferro-labs/ai-gateway#readme) - Go-native gateway for 29 providers with caching & guardrails.
+- [A3M Router](https://github.com/Das-rebel/adaptive-memory-multi-model-router) - Open-source LLM gateway with 100% routing accuracy, 47+ providers, zero ML, and Chinese provider support. MIT license.
 - [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway#readme) - Unified access to GenAI services built on Envoy Gateway.
 - [LLM Gateway](https://github.com/theopenco/llmgateway#readme) - Unified interface for running and managing LLMs with analytics.
 - [Inference Gateway](https://github.com/inference-gateway/inference-gateway#readme) - Cloud-native gateway unifying multiple LLM providers.
