@@ -69,6 +69,7 @@ Unified API gateways that route requests across multiple LLM providers.
 - [Together AI](https://www.together.ai/#readme) - Cloud platform for 200+ open-source models with optimized inference.
 - [Fireworks AI](https://fireworks.ai/#readme) - Fast inference platform optimized for latency and throughput.
 - [DeepInfra](https://deepinfra.com/#readme) - Serverless GPU inference for open-source LLMs.
+- [DaoXE](https://daoxe.com/#readme) - Multi-model multi-protocol AI API gateway for Chat Completions, Responses, Anthropic Messages, and image-compatible endpoints.
 - [Replicate](https://replicate.com/#readme) - Cloud platform for running and fine-tuning open-source models.
 - [Anyscale](https://www.anyscale.com/#readme) - AI platform built on Ray for scaling LLM applications.
 
