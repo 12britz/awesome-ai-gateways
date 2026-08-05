@@ -72,6 +72,7 @@ Unified API gateways that route requests across multiple LLM providers.
 - [DeepInfra](https://deepinfra.com/#readme) - Serverless GPU inference for open-source LLMs.
 - [Replicate](https://replicate.com/#readme) - Cloud platform for running and fine-tuning open-source models.
 - [Anyscale](https://www.anyscale.com/#readme) - AI platform built on Ray for scaling LLM applications.
+- [RouterPlex](https://routerplex.com/#readme) - OpenAI-compatible gateway to 25+ models across 11 providers, billed per token at published list rates, $5 free credit on signup.
 
 ## Semantic Caching
 • [Elasticsearch Semantic Cache](https://www.elastic.co/guide/en/elasticsearch/reference/current/semantic-search.html) - Use Elasticsearch for semantic caching with dense vector search.
