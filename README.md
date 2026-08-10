@@ -5,6 +5,7 @@
 Managing 100+ LLM APIs, handling rate limits, implementing fallbacks, and tracking token costs is a massive operational headache. This list curates the best open-source tools, managed services, and resources to help you build production-grade AI infrastructure.
 
 ## Contents
+- [Token Efficiency](https://github.com/zangxin75/token-efficiency) — Unified LLM gateway with token compression, semantic caching, multi-tenant billing, and cost analytics. Supports OpenAI, Anthropic, MiniMax, GLM, Kimi, DeepSeek.
 
 - [AI Gateways](#ai-gateways)
 - [Semantic Caching](#semantic-caching)
