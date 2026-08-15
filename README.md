@@ -72,7 +72,7 @@ Unified API gateways that route requests across multiple LLM providers.
 - [DeepInfra](https://deepinfra.com/#readme) - Serverless GPU inference for open-source LLMs.
 - [Replicate](https://replicate.com/#readme) - Cloud platform for running and fine-tuning open-source models.
 - [Anyscale](https://www.anyscale.com/#readme) - AI platform built on Ray for scaling LLM applications.
-- [SandBase](https://github.com/sandbaseai/cli#readme) - Managed gateway with an open-source CLI and MCP bridge for accessing 2,000+ AI models and APIs through one account.
+- [SandBase](https://github.com/sandbaseai/cli#readme) - Managed gateway with an open-source CLI and MCP bridge for accessing 2,000+ AI models through one account.
 
 ## Semantic Caching
 • [Elasticsearch Semantic Cache](https://www.elastic.co/guide/en/elasticsearch/reference/current/semantic-search.html) - Use Elasticsearch for semantic caching with dense vector search.
