@@ -72,6 +72,7 @@ Unified API gateways that route requests across multiple LLM providers.
 - [DeepInfra](https://deepinfra.com/#readme) - Serverless GPU inference for open-source LLMs.
 - [Replicate](https://replicate.com/#readme) - Cloud platform for running and fine-tuning open-source models.
 - [Anyscale](https://www.anyscale.com/#readme) - AI platform built on Ray for scaling LLM applications.
+- [Requesty](https://www.requesty.ai/#readme) - OpenAI-compatible gateway for 600+ models across 30+ providers with governance, caching, and spend controls.
 
 ## Semantic Caching
 • [Elasticsearch Semantic Cache](https://www.elastic.co/guide/en/elasticsearch/reference/current/semantic-search.html) - Use Elasticsearch for semantic caching with dense vector search.
@@ -150,6 +151,7 @@ Distribute traffic, implement failovers, and optimize costs.
 - [FreeRouter](https://github.com/openfreerouter/freerouter#readme) - Self-hosted AI model router with 14-dimension classifier. OpenRouter alternative using your own API keys.
 - [Claude Model Router Hook](https://github.com/tzachbon/claude-model-router-hook#readme) - Claude Code hooks that auto-switch model tier based on task complexity.
 - [a3m Router](https://github.com/Das-rebel/a3m-router#readme) - Top-ranked router on RouterArena with 96.77% accuracy at $0.0768/1K tokens.
+- [Requesty Router](https://www.requesty.ai/solution/llm-routing#readme) - Cost, latency, and availability-based routing with automatic failover chains and geo-based routing.
 
 ## API Management and Rate Limiting
 • [Apigee API Hub with AI Recommendations](https://cloud.google.com/apigee/docs/api-hub/what-is-api-hub) - Discover and recommend APIs using AI-powered insights.
