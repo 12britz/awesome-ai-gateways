@@ -43,6 +43,7 @@ Unified API gateways that route requests across multiple LLM providers.
 - [lm-proxy](https://github.com/Nayjest/lm-proxy#readme) - Lightweight OpenAI-compatible proxy for multi-provider inference.
 - [LLM API Proxy](https://github.com/rxliuli/llm-api-proxy#readme) - Edge runtime proxy supporting OpenAI, Anthropic, Gemini, and more.
 - [LLMProxy](https://github.com/aiyuekuang/LLMProxy#readme) - High-performance reverse proxy for LLM inference with SSE streaming.
+- [SandBase CLI](https://github.com/sandbaseai/cli#readme) - Open-source CLI and MCP bridge providing an OpenAI-compatible endpoint for 2,000+ AI models, with usage-based billing and a free plan.
 - [Zuul](https://github.com/Netflix/zuul#readme) - Netflix edge gateway.
 - [RouteLLM](https://github.com/lm-sys/RouteLLM#readme) - Open-source framework from LMSYS for training and deploying lightweight LLM routers that balance cost and quality.
 - [ClawRouter](https://github.com/BlockRunAI/ClawRouter#readme) - Agent-native LLM router with 41+ models, sub-millisecond routing, and USDC payments.
