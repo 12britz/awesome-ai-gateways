@@ -48,6 +48,7 @@ Unified API gateways that route requests across multiple LLM providers.
 - [ClawRouter](https://github.com/BlockRunAI/ClawRouter#readme) - Agent-native LLM router with 41+ models, sub-millisecond routing, and USDC payments.
 - [NadirClaw](https://github.com/NadirRouter/NadirClaw#readme) - Self-hosted LLM router that routes simple prompts to cheap models and complex to premium, saving 40-70% on costs.
 - [Olla](https://github.com/thushan/olla#readme) - High-performance lightweight Go proxy and load balancer for LLM infrastructure with intelligent routing.
+- [SandBase CLI](https://github.com/sandbaseai/cli#readme) - Open-source TypeScript CLI and local MCP server connecting ChatGPT, Claude Code, Cursor, Codex, and other clients to 2,000+ AI models and APIs. [Apache-2.0](https://github.com/sandbaseai/cli/blob/main/LICENSE)
 - [BitRouter](https://github.com/bitrouter/bitrouter#readme) - Rust-based agentic LLM gateway and router for cost-optimizing agentic workflows.
 - [Nyro](https://github.com/nyroway/nyro#readme) - Self-hosted Rust AI gateway with protocol translation for Claude Code, Codex, and Gemini CLI.
 - [1Flowbase](https://github.com/taichuy/1flowbase#readme) - Rust AI gateway for fusion-style multi-model workflows published as OpenAI-compatible virtual models.
