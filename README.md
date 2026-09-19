@@ -64,7 +64,9 @@ Unified API gateways that route requests across multiple LLM providers.
 
 - [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/#readme) - Unified interface for AI providers at the edge.
 - [OpenRouter](https://openrouter.ai/#readme) - Unified API for 500+ models from 60+ providers.
-- [Portkey Hosted](https://portkey.ai/#readme) - Managed AI gateway with 1600+ LLMs and enterprise features.
+
+- [APIClaw](https://apiclaw.biz/) - Flat-rate OpenAI-compatible API for Claude, GPT, Kimi, Qwen, DeepSeek, and GLM ($19-$129/mo, 50-request trial). Not affiliated with Anthropic or OpenAI.
+ - [Portkey Hosted](https://portkey.ai/#readme) - Managed AI gateway with 1600+ LLMs and enterprise features.
 - [Braintrust](https://www.braintrust.dev/#readme) - Unified API with encrypted caching and integrated evaluation.
 - [Maxim AI](https://www.getmaxim.ai/#readme) - End-to-end platform for simulation, evaluation, and monitoring.
 - [Together AI](https://www.together.ai/#readme) - Cloud platform for 200+ open-source models with optimized inference.
