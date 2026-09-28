@@ -72,6 +72,7 @@ Unified API gateways that route requests across multiple LLM providers.
 - [DeepInfra](https://deepinfra.com/#readme) - Serverless GPU inference for open-source LLMs.
 - [Replicate](https://replicate.com/#readme) - Cloud platform for running and fine-tuning open-source models.
 - [Anyscale](https://www.anyscale.com/#readme) - AI platform built on Ray for scaling LLM applications.
+- [Infere](https://infere.com/#readme) - OpenAI-compatible gateway that routes each request to a provider by prompt complexity and required capabilities such as vision or tool calling, with context compression, fallback chains scoped by error type, prompts versioned as files in Git, and per-token budgets enforced before the provider call.
 
 ## Semantic Caching
 • [Elasticsearch Semantic Cache](https://www.elastic.co/guide/en/elasticsearch/reference/current/semantic-search.html) - Use Elasticsearch for semantic caching with dense vector search.
