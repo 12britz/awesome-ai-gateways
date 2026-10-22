@@ -247,6 +247,8 @@ Content filtering, PII redaction, and prompt injection protection.
 - [Cortex](https://arxiv.org/html/2509.17360v2#readme) - Semantic-aware knowledge caching for LLM agents.
 - [Ferro Labs Getting Started](https://github.com/ferro-labs/ai-gateway#readme) - Go-native gateway setup.
 - [OSS LLMOps Stack](https://github.com/langfuse/oss-llmops-stack#readme) - Modular open-source LLMOps stack combining LiteLLM and Langfuse.
+- [AI Gateway (LLM Gateway) Explained: What It Does, When You Need One and What It Costs](https://www.alekseialeinikov.com/en/blog/topics/ai/ai-gateway-llm-gateway-explained-latency-benchmark) - Added latency, streaming, fallback and budgets, with an open benchmark of nginx, Kong, Portkey and LiteLLM.
+- [ai-gateway-benchmark](https://github.com/LF3551/ai-gateway-benchmark) - Reproducible latency benchmark of nginx, Kong, Portkey and LiteLLM against the same mock model, with CI.
 - [awesome-mllm-guardrails](https://github.com/ant-research/awesome-mllm-guardrails#readme) - Curated list of LLM guardrails, safety benchmarks, guard models, and jailbreak attacks.
 
 ## Communities
