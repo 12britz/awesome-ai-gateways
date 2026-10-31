@@ -65,6 +65,7 @@ Unified API gateways that route requests across multiple LLM providers.
 - [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/#readme) - Unified interface for AI providers at the edge.
 - [OpenRouter](https://openrouter.ai/#readme) - Unified API for 500+ models from 60+ providers.
 - [Portkey Hosted](https://portkey.ai/#readme) - Managed AI gateway with 1600+ LLMs and enterprise features.
+- [Septor Labs](https://septorlabs.com/#readme) - Hosted gateway for agents with one key for OpenAI-style and Anthropic-style clients, smart routing, failover before the first token, and semantic caching.
 - [Braintrust](https://www.braintrust.dev/#readme) - Unified API with encrypted caching and integrated evaluation.
 - [Maxim AI](https://www.getmaxim.ai/#readme) - End-to-end platform for simulation, evaluation, and monitoring.
 - [Together AI](https://www.together.ai/#readme) - Cloud platform for 200+ open-source models with optimized inference.
