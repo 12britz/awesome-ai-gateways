@@ -75,6 +75,7 @@ Unified API gateways that route requests across multiple LLM providers.
 - [Vercel AI Gateway](https://sdk.vercel.ai/docs/ai-gateway#readme) - Single endpoint for hundreds of AI models.
 - [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/#readme) - Unified interface for AI providers at the edge.
 - [OpenRouter](https://openrouter.ai/#readme) - Unified API for 500+ models from 60+ providers.
+- [TheRouter.ai](https://therouter.ai/) - Hosted, OpenAI-compatible API for accessing models from multiple providers.
 - [Portkey Hosted](https://portkey.ai/#readme) - Managed AI gateway with 1600+ LLMs and enterprise features.
 - [Braintrust](https://www.braintrust.dev/#readme) - Unified API with encrypted caching and integrated evaluation.
 - [Inworld Router](https://www.inworlds.ai/#readme) - LLM plus TTS pipelining for high-interactivity use cases.
