@@ -64,6 +64,7 @@ Unified API gateways that route requests across multiple LLM providers.
 
 - [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/#readme) - Unified interface for AI providers at the edge.
 - [OpenRouter](https://openrouter.ai/#readme) - Unified API for 500+ models from 60+ providers.
+- [RouterPlex](https://routerplex.com/#readme) - Hosted OpenAI- and Anthropic-compatible gateway to 72 models at vendor list prices (0% markup, $0 top-up fee), with prepaid balances and hard per-key USD budgets.
 - [Portkey Hosted](https://portkey.ai/#readme) - Managed AI gateway with 1600+ LLMs and enterprise features.
 - [Braintrust](https://www.braintrust.dev/#readme) - Unified API with encrypted caching and integrated evaluation.
 - [Maxim AI](https://www.getmaxim.ai/#readme) - End-to-end platform for simulation, evaluation, and monitoring.
