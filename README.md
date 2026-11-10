@@ -57,6 +57,7 @@ Unified API gateways that route requests across multiple LLM providers.
 - [AI Firewall](https://github.com/vcal-project/ai-firewall#readme) - Rust OpenAI-compatible gateway using Redis exact cache and Qdrant semantic cache.
 - [Hecate](https://github.com/hecatehq/hecate#readme) - Local AI operations console for supervised agent work with MCP and OpenTelemetry.
 - [Alvus](https://github.com/filariasistrichoglossusmoluccanus49/Alvus#readme) - Lightweight Go proxy for handling AI API rate limits.
+- [Kaeso](https://github.com/logicplanes/kaeso#readme) - Self-hosted AI gateway in Rust with OpenAI- and Anthropic-compatible APIs, SSO, budgets and request logs.
 
 ### Managed Services
 • [AWS API Gateway with Bedrock Integration](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-bedrock.html) - Expose Bedrock models via REST/WebSocket APIs with throttling and auth.
