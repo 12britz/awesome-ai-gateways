@@ -67,6 +67,7 @@ Unified API gateways that route requests across multiple LLM providers.
 - [Portkey Hosted](https://portkey.ai/#readme) - Managed AI gateway with 1600+ LLMs and enterprise features.
 - [Braintrust](https://www.braintrust.dev/#readme) - Unified API with encrypted caching and integrated evaluation.
 - [Maxim AI](https://www.getmaxim.ai/#readme) - End-to-end platform for simulation, evaluation, and monitoring.
+- [Nivana AI](https://nivana.one/docs/routing) - Managed always-auto router: an OpenAI-compatible API with no model parameter that picks one of 14 models per request and returns `routed_to`.
 - [Together AI](https://www.together.ai/#readme) - Cloud platform for 200+ open-source models with optimized inference.
 - [Fireworks AI](https://fireworks.ai/#readme) - Fast inference platform optimized for latency and throughput.
 - [DeepInfra](https://deepinfra.com/#readme) - Serverless GPU inference for open-source LLMs.
