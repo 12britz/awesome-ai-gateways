@@ -130,6 +130,7 @@ Monitor, attribute, and optimize LLM spend.
 - [Aegis](https://github.com/Justin0504/Aegis#readme) - Runtime policy enforcement for AI agents with cryptographic audit trail and kill switch.
 - [AgentWatch](https://github.com/cyberark/agentwatch#readme) - AI observability framework for comprehensive agent interaction insights.
 - [VoltAgent](https://github.com/VoltAgent/voltagent#readme) - AI Agent Engineering Platform built on open-source TypeScript framework.
+- [AI API Price Change Log](https://aitokensai.com/pricing/changelog/) - Dated CSV/JSON record of observed LLM rate changes under CC BY 4.0, for cost models that need historical rather than current prices.
 
 ## Load Balancing and Routing
 • [Istio AI Traffic Management](https://istio.io/latest/docs/tasks/traffic-management/) - AI-based traffic routing in Istio service mesh.
