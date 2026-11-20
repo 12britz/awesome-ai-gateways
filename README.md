@@ -58,6 +58,12 @@ Unified API gateways that route requests across multiple LLM providers.
 - [Hecate](https://github.com/hecatehq/hecate#readme) - Local AI operations console for supervised agent work with MCP and OpenTelemetry.
 - [Alvus](https://github.com/filariasistrichoglossusmoluccanus49/Alvus#readme) - Lightweight Go proxy for handling AI API rate limits.
 
+### Source-available
+- [Janus Edge](https://github.com/Torvanis/janus) - Self-hosted AI gateway (Go) for organization-wide LLM access with SSO, per-model grants, cost metering, quotas and guardrails. [[Elastic-2.0]](https://www.elastic.co/licensing/elastic-license)
+  - OpenAI-compatible API in front of hosted (OpenAI, Anthropic, Bedrock, Vertex) and local (vLLM, Ollama, TEI) models
+  - Prompts not stored by default; air-gapped installs supported
+  - Free Community edition for up to 25 users (https://janusedge.com/pricing)
+
 ### Managed Services
 • [AWS API Gateway with Bedrock Integration](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-bedrock.html) - Expose Bedrock models via REST/WebSocket APIs with throttling and auth.
 • [GCP Apigee AI Gateway](https://cloud.google.com/apigee/docs/api-platform/get-started) - Manage and secure LLM APIs with Apigee's traffic management and analytics.
