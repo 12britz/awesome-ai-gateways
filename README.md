@@ -62,6 +62,7 @@ Unified API gateways that route requests across multiple LLM providers.
 • [AWS API Gateway with Bedrock Integration](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-bedrock.html) - Expose Bedrock models via REST/WebSocket APIs with throttling and auth.
 • [GCP Apigee AI Gateway](https://cloud.google.com/apigee/docs/api-platform/get-started) - Manage and secure LLM APIs with Apigee's traffic management and analytics.
 
+- [Beiluo API](https://beiluoxi.xyz/) - Hosted multi-model gateway with [OpenAI, Anthropic and Gemini interfaces](https://beiluoxi.xyz/help/_full.html) and public CNY pricing by model and routing group.
 - [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/#readme) - Unified interface for AI providers at the edge.
 - [OpenRouter](https://openrouter.ai/#readme) - Unified API for 500+ models from 60+ providers.
 - [Portkey Hosted](https://portkey.ai/#readme) - Managed AI gateway with 1600+ LLMs and enterprise features.
